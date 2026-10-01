@@ -12,7 +12,7 @@ builtin = "history-watch"
 
 [dotfiles]
 "~/.config/mise/config.toml" = {mode = "track"}
-"~/.hammerspoon/init.lua" = { mode = "track" }
+"~/.hammerspoon/init.lua" = {mode = "track"}
 "~/.zshrc" = {mode = "track"}
 
 [env]
