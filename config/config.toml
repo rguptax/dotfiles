@@ -1,0 +1,41 @@
+[bootstrap.packages]
+"brew:fish" = "latest"
+"brew-cask:ghostty" = "latest"
+"brew-cask:vscodium" = "latest"
+"brew-cask:opensuperwhisper" = "latest"
+"brew-cask:font-maple-mono" = "latest"
+"brew-cask:font-maple-mono-nf" = "latest"
+
+[dotfiles]
+"~/.config/mise/config.toml" = { mode = "track" }
+"~/.zshrc" = {mode = "track"}
+
+[env]
+MISE_BREW_CASK_OPT_APPDIR = "{{env.HOME}}/Applications"
+HOMEBREW_NO_ANALYTICS = "1"
+
+[settings]
+use_versions_host = false
+use_versions_host_track = false
+auto_update = true
+
+[shell_alias]
+ls = "eza"
+cat = "bat"
+m = "mise"
+mx = "mise run"
+
+[tools]
+bat = "latest"
+eza = "latest"
+fd = "latest"
+rg = "latest"
+sd = "latest"
+starship = "latest"
+uv = "latest"
+zoxide = "latest"
+"aqua:cantino/mcfly" = "latest"
+pitchfork = "latest"
+
+[bootstrap.services.mise-history]
+builtin = "history-watch"
