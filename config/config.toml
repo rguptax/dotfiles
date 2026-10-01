@@ -11,6 +11,7 @@
 builtin = "history-watch"
 
 [dotfiles]
+"~/.config/fish/config.fish" = { mode = "track" }
 "~/.config/mise/config.toml" = {mode = "track"}
 "~/.hammerspoon/init.lua" = {mode = "track"}
 "~/.zshrc" = {mode = "track"}
