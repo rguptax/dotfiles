@@ -5,6 +5,7 @@
 "brew-cask:opensuperwhisper" = "latest"
 "brew-cask:font-maple-mono" = "latest"
 "brew-cask:font-maple-mono-nf" = "latest"
+"brew-cask:hammerspoon" = "latest"
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
