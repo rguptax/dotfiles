@@ -6,8 +6,11 @@
 "brew-cask:font-maple-mono" = "latest"
 "brew-cask:font-maple-mono-nf" = "latest"
 
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
 [dotfiles]
-"~/.config/mise/config.toml" = { mode = "track" }
+"~/.config/mise/config.toml" = {mode = "track"}
 "~/.zshrc" = {mode = "track"}
 
 [env]
@@ -36,6 +39,3 @@ uv = "latest"
 zoxide = "latest"
 "aqua:cantino/mcfly" = "latest"
 pitchfork = "latest"
-
-[bootstrap.services.mise-history]
-builtin = "history-watch"
