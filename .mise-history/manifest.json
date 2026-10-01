@@ -14,6 +14,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/ghostty/config",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.hammerspoon/init.lua",
       "autosave": true,
       "encrypt": false,

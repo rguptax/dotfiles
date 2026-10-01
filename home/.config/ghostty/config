@@ -1,0 +1,5 @@
+font-size = 16.5
+macos-titlebar-style = transparent
+command = /opt/homebrew/bin/fish
+font-family = Maple Mono
+
