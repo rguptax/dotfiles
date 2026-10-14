@@ -7,6 +7,7 @@
 "brew-cask:font-maple-mono" = "latest"
 "brew-cask:font-maple-mono-nf" = "latest"
 "brew-cask:hammerspoon" = "latest"
+"brew-cask:obsidian" = "latest"
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
