@@ -1,4 +1,5 @@
 [bootstrap.packages]
+"brew:mcfly" = "latest"
 "brew:fish" = "latest"
 "brew-cask:ghostty" = "latest"
 "brew-cask:vscodium" = "latest"
@@ -41,7 +42,6 @@ sd = "latest"
 starship = "latest"
 uv = "latest"
 zoxide = "latest"
-"aqua:cantino/mcfly" = "latest"
 pitchfork = "latest"
 hk = "latest"
 rtk = "latest"
