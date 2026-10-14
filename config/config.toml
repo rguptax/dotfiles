@@ -1,3 +1,6 @@
+[bootstrap.brew]
+adopt = true
+
 [bootstrap.packages]
 "brew:mcfly" = "latest"
 "brew:fish" = "latest"
