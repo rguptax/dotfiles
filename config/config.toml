@@ -11,6 +11,7 @@ adopt = true
 "brew-cask:font-maple-mono-nf" = "latest"
 "brew-cask:hammerspoon" = "latest"
 "brew-cask:obsidian" = "latest"
+"brew-cask:TheBoredTeam/boring-notch/boring-notch" = "latest"
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
